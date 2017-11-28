@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Brian Abarquez and Richard Lu -->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="175.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.SongLibController">
+   <children>
+      <Button fx:id="edit" layoutX="296.0" layoutY="149.0" mnemonicParsing="false" onAction="#TheyPushedTheButton" prefHeight="25.0" prefWidth="37.0" text="Edit" />
+      <Button fx:id="delete" layoutX="233.0" layoutY="149.0" mnemonicParsing="false" onAction="#TheyPushedTheButton" text="Delete" />
+      <Button fx:id="add" layoutX="184.0" layoutY="149.0" mnemonicParsing="false" onAction="#TheyPushedTheButton" text="Add" />
+      <TextField fx:id="showTitle" layoutX="15.0" layoutY="11.0" promptText="Title" />
+      <TextField fx:id="showArtist" layoutX="15.0" layoutY="43.0" promptText="Artist" />
+      <TextField fx:id="showAlbum" layoutX="15.0" layoutY="75.0" promptText="Album" />
+      <TextField fx:id="showYear" layoutX="15.0" layoutY="111.0" promptText="Year" />
+      <ListView fx:id="songList" layoutX="14.0" layoutY="149.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField fx:id="songTitle" layoutX="184.0" layoutY="11.0" promptText="Enter Title" />
+      <TextField fx:id="songArtist" layoutX="184.0" layoutY="43.0" promptText="Enter Artist" />
+      <TextField fx:id="songAlbum" layoutX="184.0" layoutY="75.0" promptText="Enter Album" />
+      <TextField fx:id="songYear" layoutX="184.0" layoutY="111.0" promptText="Enter Year" />
+   </children>
+</AnchorPane>
